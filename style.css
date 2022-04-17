@@ -1,0 +1,571 @@
+body{
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+   
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.jscloth_header{
+margin-left: 60px;
+margin-bottom: 30px;
+margin-top: 100px;
+}
+*{
+    margin: 0;
+}
+#nav-bar{
+ z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    background-image: linear-gradient(#D60C14,#AC0E10);
+    margin-top: 0px;
+    position: fixed;
+    height: 80px;
+ 
+}
+#nav-bar .navcontent .logo{
+   height: 120%;
+} 
+
+
+               /* slider start */
+
+               /* #slider-container{
+                position: absolute;
+                width: 1000px;
+                height: 300px;
+                margin-top: 100px;
+                margin-left: 180px;;
+                margin-right: 200px;
+                display: flex;
+                overflow: hidden;
+                
+                
+              
+            }
+            
+            
+            #slider-container .slider{
+               
+                width: 1000px;
+                height: 300px;
+                list-style: none;
+                display: flex;
+                
+            
+            }
+            #slider-container .slider .slides{
+                float: left;
+                width: 1000px;
+                height: 300px;
+               
+            }
+            
+            #slider-container .slides img{
+                
+                width: 1000px;
+                height: 300px;
+            } */
+            
+
+            .slider{
+                position: absolute;
+              margin-top:90px !important;
+              padding-top: 20px;
+              z-index: -1;
+              width: 100%;
+              margin-left: 0px;
+              margin-right: auto;
+              /* height: 500px; */
+              
+              overflow: hidden;
+            }
+            
+            .slides{
+              width: 500%;
+              /* height: 500px; */
+              display: flex;
+            }
+            
+            .slides input{
+              display: none;
+            }
+            
+            .slide{
+              width: 20%;
+              transition: 0.5s;
+            }
+            
+            .slide img{
+              width: 100%;
+              /* height: 500px; */
+            }
+            
+                                            /* slider ends */
+/* #nav-bar .navcontent .logo{
+    font-size: 30px;
+    color: black;
+    font-weight: 900;
+} */
+/* .logo2{
+    position: relative;
+    right: 5px;
+    font-size: 30px;
+    color: black;
+    
+} */
+
+.navcontent1 span{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0 1.6vw;
+    color: black;
+    border-bottom: 1px solid white;
+
+ 
+}
+.anchor{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.navcontent1{
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+/* .navcontent{
+    
+} */
+
+.icons i {
+    padding-top: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+.jsacc_header{
+    margin-left: 60px;
+margin-bottom: 30px;
+margin-top: 70px;
+}
+
+
+/* cards start */
+
+
+
+
+h2{
+    margin-top:100px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(27, 25, 25);
+    font-weight: 500;
+    display :none
+}
+#wrapper{
+    position:absolute;
+    margin-top: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+    height: auto;
+   
+}
+
+.clothing{
+    margin-left:50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 95%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 60px;
+    border: 1px solid red;
+    
+}
+
+.accessories{
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 80%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+  
+}
+
+.product{
+
+    width: 230px;
+    height: 400px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 30%);
+    border: 2px solid #AC0E10;
+ 
+}
+
+.product:hover{
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 70%)  ;
+}
+
+.img{
+    width: 100%;
+    height: 250px;
+}
+
+.des{
+    margin: 0px;
+    width: 100%;
+    height: 104px;
+} 
+
+.des1{
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: rgb(27, 25, 25);
+    font-family: "Montserrat", sans-serif;
+}
+
+.des2{
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    color: #AC0E10;
+  
+    font-family: "Montserrat", sans-serif;
+ 
+}
+
+.des3{
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #AC0E10;
+    font-family: "Montserrat", sans-serif;
+}
+.des4{
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #AC0E10;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+@media screen and (max-width: 400px){
+
+    .clothing{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .accessories{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+    
+
+    .product{
+        width: 170px;
+
+    }
+}
+
+
+
+/* cards end */
+
+
+/* footer  start*/
+
+.footer{
+    position: absolute;
+    top: 2270px;
+    width: 100%;
+    height: 970px;
+    margin-left: -20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  
+  
+  .footer .abouts h5{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: #ffff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    z-index: 3;
+  }
+  
+  .footer .abouts .hr{
+    position: absolute;
+    top:53px;
+    left: 130px;
+    width: 250px;
+    height: 1px;
+    background-color: rgb(255, 99, 97);;
+  }
+  
+  
+  
+  .footer .abouts p{
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    font-size: 17px;
+      line-height: 25px;
+    color: #fff;
+    width: 330px;
+  }
+  
+  .footer .abouts a{
+    position: absolute;
+    top: 240px;
+    left: 30px;
+    font-size: 14px;
+      line-height: 20px;
+      font-weight: 600;
+      color: #ffff;
+      text-decoration: none;
+  }
+  
+  .footer .abouts a::after{
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 0;
+      background-color: #ffff;
+      bottom: -6px;
+      left: 0px;
+  }
+  
+  .footer .abouts a:hover:after{
+    width: 100%;
+  }
+  
+  
+  .footer .serv h5{
+    position: absolute;
+    top: 280px;
+    left: 30px;
+    color: #ffff;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 3;
+    color: #ffff;
+  }
+  
+  .footer .serv .hr2{
+    position: absolute;
+    top:313px;
+    left: 108px;
+    width: 270px;
+    height: 1px;
+    background-color: rgb(255, 99, 97);;
+  }
+  
+  
+  
+  
+  .footer-services{
+    position: relative;
+    top: 360px;
+    left: 30px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+  }
+  
+  .footer .serv .footer-services .sr{
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ffff;
+    width: fit-content;
+  }
+  
+  .serv-list .li1::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    background-color: #ffff;
+    bottom: 135px;
+    left: 0px;
+  }
+  
+  .serv-list .li1:hover:after{
+  width: 100%;
+  }
+  
+  .serv-list .li2::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    background-color: #ffff;
+    bottom: 95px;
+    left: 0px;
+  }
+  
+  .serv-list .li2:hover:after{
+  width: 77%;
+  }
+  
+  .serv-list .li3::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    background-color: #ffff;
+    bottom: 55px;
+    left: 0px;
+  }
+  
+  .serv-list .li3:hover:after{
+  width: 75%;
+  }
+  
+  .serv-list .li4::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    background-color: #ffff;
+    bottom: 15px;
+    left: 0px;
+  }
+  
+  .serv-list .li4:hover:after{
+  width: 64%;
+  }
+  
+  
+  
+  
+  .footer-contact{
+    position: absolute;
+    top: 520px;
+    left: 30px;
+    font-size: 15px;
+    font-weight:600;
+    color: #ffff;
+  }
+  
+  .hr3{
+    position: absolute; 
+    top:555px;
+    left: 115px;
+    width: 265px;
+    height: 1px;
+    background-color: rgb(255, 99, 97);;
+  }
+  
+  .footer-contacts{
+    position: absolute;
+    top: 600px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  
+  .footer-contacts .phone div{
+    display: flex;
+  }
+  
+  
+  .footer-contacts .phone div img{
+    margin-right: 15px;
+  }
+  
+  
+  .footer-contacts .phone p{
+    margin-left: 45px;
+  }
+  
+  
+  .time div{
+    display: flex;
+  }
+  
+  .time div img{
+    margin-right: 15px;
+    margin-left: 7px;
+  }
+  
+  .timing{
+    margin-bottom: 5px;
+    color: hsla(0, 0%, 100%, 0.7);
+    font-family: Dosis, sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    margin-left: 48px;
+    margin-top: 0px;
+  }
+  
+  
+  .mail div{
+    display: flex;
+  
+  }
+  .mail div img{
+    margin-left: 8px;
+    margin-right: 12px;
+  }
+  
+  .cont{
+    margin-bottom: 5px;
+    margin-left: 45px;
+    margin-top: 0px;
+    color: hsla(0, 0%, 100%, 0.7);
+    font-family: Dosis, sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  /* footer end */
