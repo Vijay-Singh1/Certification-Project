@@ -202,8 +202,7 @@ function cards(){
 var a = document.getElementById("card-wrapper")
 
 
-a.innerHTML+=`<div class="team-card" onclick="mclick(${teamsList[i].sname})">
-
+a.innerHTML+=`<div class="team-card"  onclick="mclick(${[i]})">
 <img src=${teamsList[i].preview} alt="" class="img">
 <h2 class="name">${teamsList[i].name}</h2>
 <h6 class="Player-count">${teamsList[i].PlayerCount}</h6>
@@ -217,14 +216,62 @@ a.innerHTML+=`<div class="team-card" onclick="mclick(${teamsList[i].sname})">
 
 
 function mclick(j){
-    console.log(j)
+
+  console.log(j)
   
+   location.href="./teams.html"
+  
+
+
+    
+
+
+
+
+
+var n="rcb"
+
+$.get(`details.json`, function abc(response) {
+    const obj = response;
+
+  teamscard(obj[n])
+
+
+   
+
+
+})
+
+function teamscard(res){
+   
+    for(i=0;i<=res.length-1;i++){
+       
+    
+
+ 
+   
+
+     
+
+var a = document.getElementById("team-member")
+     a.innerHTML+=`<div class="teams-cards" >
+     <img src=${res[i].preview} alt="" class="img">
+     <h2 class="name">${res[i].name}</h2>
+     <h6 class="Player-count">${res[i].from}</h6>
+      <h2 class="Top-Batter">${res[i].status}</h2> 
+      <h2 class="Top-Bowler">${res[i].price}</h2> 
+      <h2 class="title-won">${res[i].des}</h2> 
+      
+     </div>`
+    }
+    }
+    
+
+    
+
 }
 
-var x=document.getElementById("rcb")
-x.addEventListener("click",function(){
-    location.assign("http://127.0.0.1:5502/teams.html")
-})
+
 
 
 
