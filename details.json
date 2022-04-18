@@ -1,0 +1,230 @@
+{
+"rcb":[
+    {
+       "id":"1",
+       "name":"Virat Kohli",
+       "preview":"https://assets.iplt20.com/ipl/IPLHeadshot2022/164.png",
+       "from":"RCB",
+       "isPlaying":true,
+       "playingStatus":"Playing Status : Playing",
+       "price":"14 Cr",
+       "description":"Batter"
+    },
+    {
+       "id":"1",
+       "name":"Virat Kohli",
+       "preview":"https://assets.iplt20.com/ipl/IPLHeadshot2022/164.png",
+       "from":"RCB",
+       "isPlaying":true,
+       "playingStatus":"Playing Status : Playing",
+       "price":"14 Cr",
+       "description":"Batter"
+    },
+    {
+       "id":"2",
+       "name":"Faf Du Plesis",
+       "preview":"https://assets.iplt20.com/ipl/IPLHeadshot2022/24.png",
+       "from":"RCB",
+       "isPlaying":true,
+       "playingStatus":"Playing Status : Playing",
+       "price":"14 Cr",
+       "description":"Batter"
+    },
+    {
+       "id":"3",
+       "name":"Anuj Rawat",
+       "preview":"https://assets.iplt20.com/ipl/IPLHeadshot2022/10788.png",
+       "from":"RCB",
+       "isPlaying":true,
+       "playingStatus":"Playing Status : Playing",
+       "price":"14 Cr",
+       "description":"Batter"
+    },
+    {
+       "id":"4",
+       "name":"Dinesh Kartik",
+       "preview":"https://assets.iplt20.com/ipl/IPLHeadshot2022/102.png",
+       "from":"RCB",
+       "isPlaying":true,
+       "playingStatus":"Playing Status : Playing",
+       "price":"14 Cr",
+       "description":"Batter"
+    },
+    {
+       "id":"5",
+       "name":"Finn Allen",
+       "preview":"https://assets.iplt20.com/ipl/IPLHeadshot2022/3020.png",
+       "from":"RCB",
+       "isPlaying":true,
+       "playingStatus":"Playing Status: Not Playing",
+       "price":"14 Cr",
+       "description":"Batter"
+    },
+    {
+       "id":"6",
+       "name":"Glenn Maxwell",
+       "preview":"https://assets.iplt20.com/ipl/IPLHeadshot2022/282.png",
+       "from":"RCB",
+       "isPlaying":true,
+       "playingStatus":"Playing Status : Playing",
+       "price":"8 Cr",
+       "description":"Batter"
+    },
+    {
+       "id":"7",
+       "name":"Harshal Patel",
+       "preview":"https://assets.iplt20.com/ipl/IPLHeadshot2022/157.png",
+       "from":"RCB",
+       "isPlaying":true,
+       "playingStatus":"Playing Status:Playing",
+       "price":"11 Cr",
+       "description":"Bowler"
+    },
+    {
+       "id":"8",
+       "name":"wanindu Hasranga",
+       "preview":"https://assets.iplt20.com/ipl/IPLHeadshot2022/3082.png",
+       "from":"RCB",
+       "isPlaying":true,
+       "playingStatus":"Playing Status : Playing",
+       "price":"10 Cr",
+       "description":"Bowler"
+    },
+    {
+       "id":"9",
+       "name":"shahbaaz Ahamad",
+       "preview":"https://assets.iplt20.com/ipl/IPLHeadshot2022/13803.png",
+       "from":"RCB",
+       "isPlaying":true,
+       "playingStatus":"Playing Status : Playing",
+       "price":"5 Cr",
+       "description":"All-rounder"
+    },
+    {
+       "id":"10",
+       "name":"Mohammad Siraj",
+       "preview":"https://assets.iplt20.com/ipl/IPLHeadshot2022/3840.png",
+       "from":"RCB",
+       "isPlaying":true,
+       "playingStatus":"Playing Status : Playing",
+       "price":"10 Cr",
+       "description":"Bowler"
+    }
+ ],
+
+ "chennai":[
+    {
+       "id":"1",
+       "name":"MS Dhoni",
+       "preview":"https://assets.iplt20.com/ipl/IPLHeadshot2022/164.png",
+       "from":"RCB",
+       "isPlaying":true,
+       "playingStatus":"Playing Status : Playing",
+       "price":"14 Cr",
+       "description":"Batter"
+    },
+    {
+       "id":"1",
+       "name":"Virat Kohli",
+       "preview":"https://assets.iplt20.com/ipl/IPLHeadshot2022/164.png",
+       "from":"RCB",
+       "isPlaying":true,
+       "playingStatus":"Playing Status : Playing",
+       "price":"14 Cr",
+       "description":"Batter"
+    },
+    {
+       "id":"2",
+       "name":"Faf Du Plesis",
+       "preview":"https://assets.iplt20.com/ipl/IPLHeadshot2022/24.png",
+       "from":"RCB",
+       "isPlaying":true,
+       "playingStatus":"Playing Status : Playing",
+       "price":"14 Cr",
+       "description":"Batter"
+    },
+    {
+       "id":"3",
+       "name":"Anuj Rawat",
+       "preview":"https://assets.iplt20.com/ipl/IPLHeadshot2022/10788.png",
+       "from":"RCB",
+       "isPlaying":true,
+       "playingStatus":"Playing Status : Playing",
+       "price":"14 Cr",
+       "description":"Batter"
+    },
+    {
+       "id":"4",
+       "name":"Dinesh Kartik",
+       "preview":"https://assets.iplt20.com/ipl/IPLHeadshot2022/102.png",
+       "from":"RCB",
+       "isPlaying":true,
+       "playingStatus":"Playing Status : Playing",
+       "price":"14 Cr",
+       "description":"Batter"
+    },
+    {
+       "id":"5",
+       "name":"Finn Allen",
+       "preview":"https://assets.iplt20.com/ipl/IPLHeadshot2022/3020.png",
+       "from":"RCB",
+       "isPlaying":true,
+       "playingStatus":"Playing Status: Not Playing",
+       "price":"14 Cr",
+       "description":"Batter"
+    },
+    {
+       "id":"6",
+       "name":"Glenn Maxwell",
+       "preview":"https://assets.iplt20.com/ipl/IPLHeadshot2022/282.png",
+       "from":"RCB",
+       "isPlaying":true,
+       "playingStatus":"Playing Status : Playing",
+       "price":"8 Cr",
+       "description":"Batter"
+    },
+    {
+       "id":"7",
+       "name":"Harshal Patel",
+       "preview":"https://assets.iplt20.com/ipl/IPLHeadshot2022/157.png",
+       "from":"RCB",
+       "isPlaying":true,
+       "playingStatus":"Playing Status:Playing",
+       "price":"11 Cr",
+       "description":"Bowler"
+    },
+    {
+       "id":"8",
+       "name":"wanindu Hasranga",
+       "preview":"https://assets.iplt20.com/ipl/IPLHeadshot2022/3082.png",
+       "from":"RCB",
+       "isPlaying":true,
+       "playingStatus":"Playing Status : Playing",
+       "price":"10 Cr",
+       "description":"Bowler"
+    },
+    {
+       "id":"9",
+       "name":"shahbaaz Ahamad",
+       "preview":"https://assets.iplt20.com/ipl/IPLHeadshot2022/13803.png",
+       "from":"RCB",
+       "isPlaying":true,
+       "playingStatus":"Playing Status : Playing",
+       "price":"5 Cr",
+       "description":"All-rounder"
+    },
+    {
+       "id":"10",
+       "name":"Mohammad Siraj",
+       "preview":"https://assets.iplt20.com/ipl/IPLHeadshot2022/3840.png",
+       "from":"RCB",
+       "isPlaying":true,
+       "playingStatus":"Playing Status : Playing",
+       "price":"10 Cr",
+       "description":"Bowler"
+    }
+ ]
+ }
+
+
+
