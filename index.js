@@ -1,6 +1,9 @@
 
   
 
+  
+
+
 
 
 
@@ -75,6 +78,7 @@ var teamsList = [
     {
       id: "4",
       name: "Kolkata Knight Riders",
+      sname:"KKR",
       preview:
         "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Kolkata_Knight_Riders_Logo.svg/1200px-Kolkata_Knight_Riders_Logo.svg.png",
  
@@ -121,6 +125,7 @@ var teamsList = [
     {
       id: "7",
       name: "Lucknow Super Giants",
+      sname:"LSG",
       preview:
         "https://static.toiimg.com/thumb/msid-89248103,imgsize-29332,width-400,resizemode-4/89248103.jpg",
   
@@ -196,7 +201,8 @@ function cards(){
 
 var a = document.getElementById("card-wrapper")
 
-a.innerHTML+=`<div class="team-card" id=${i} onclick=teamPage(${teamsList[i].sname})>
+
+a.innerHTML+=`<div class="team-card" onclick="mclick(${teamsList[i].sname})">
 
 <img src=${teamsList[i].preview} alt="" class="img">
 <h2 class="name">${teamsList[i].name}</h2>
@@ -207,13 +213,22 @@ a.innerHTML+=`<div class="team-card" id=${i} onclick=teamPage(${teamsList[i].sna
  
 </div>`
 
-
-
-
-
 }
 
-cards()
+
+function mclick(j){
+    console.log(j)
+  
+}
+
+var x=document.getElementById("rcb")
+x.addEventListener("click",function(){
+    location.assign("http://127.0.0.1:5502/teams.html")
+})
+
+
+
+
 
 
 
